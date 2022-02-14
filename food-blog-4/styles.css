@@ -1,0 +1,30 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    width: 1200px;
+    margin: 0px auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+article > div{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.food {
+    width: 500px;
+    margin: 2em 1em;
+}
+
+.food:nth-child(3){
+    order: 4;
+}
+
+.food:nth-child(4){
+    position: relative;
+    bottom: 240px;
+}

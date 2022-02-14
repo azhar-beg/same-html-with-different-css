@@ -1,0 +1,49 @@
+* {
+    margin: 0px;
+}
+body {
+    width: 960px;
+    margin: 0px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6em;
+}
+
+.food-blog{
+    background-color: aliceblue;
+}
+
+article > * {
+    margin: 1em 1em;
+}
+
+h1{
+    background-color: lightgrey;
+    padding: 0.2em;
+    text-align: center;
+}
+
+article > div {
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid black;
+}
+
+.food:nth-child(1), .food:nth-child(3){
+    background-color: lightgoldenrodyellow;
+}
+
+.food > header{
+    background-color: lightskyblue;
+}
+
+.food > figure{
+    width: 400px;
+    margin: 1em 0;
+}
+
+.food  img:nth-child(1n){
+    width: 400px;
+}
+
+.food figcaption{
+    text-align: center;
+}

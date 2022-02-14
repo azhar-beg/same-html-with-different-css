@@ -1,0 +1,86 @@
+body {
+    width: 1700px;
+    margin: 0px auto;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.4em;
+}
+
+.food-blog  {
+    background-color: aliceblue;
+}
+
+h1{
+    width: 200px;
+    margin: 20px;
+    text-align: center;
+    background-color: lightsalmon;
+}
+
+article{
+    display: flex;
+    margin: 0 1.5em;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    gap: 0.5em;
+}
+
+h2{
+    text-align: center;
+}
+
+.food:nth-child(3){
+    order: 4;
+}
+
+.food > figure {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1em;
+}
+.food img {
+    width: 400px;
+    border-radius: 50% ;
+}
+
+
+.food:nth-child(1) , .food:nth-child(3) {
+    width: 700px;
+    height: 720px;
+    border-radius: 50%;
+}
+
+.food:nth-child(1){
+    background-color: bisque;
+    border:10px solid rgb(115, 86, 143);
+}
+
+.food:nth-child(3){
+    background-color: ghostwhite;
+    border:10px solid rgb(115, 86, 143);
+    margin-top: 400px;
+}
+
+.food:nth-child(2), .food:nth-child(4){
+    width: 850px;
+    height: 830px;
+    border-radius: 50%;
+}
+
+.food:nth-child(2){
+    margin-top: 400px;
+    background-color: lightgoldenrodyellow;
+    border:10px solid rgb(115, 86, 143);
+}
+
+.food:nth-child(4){
+    background-color: lightpink;
+    border:10px solid rgb(115, 86, 143);
+}
+
+.food > p {
+    width: 80%;
+    margin: 0 auto;
+    width: 70%;
+}
